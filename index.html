@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My GitHub Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="Site Logo" class="logo" />
+        <span>My GitHub Website</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome 👋</h1>
+        <p>This is a simple website you can host with GitHub Pages. Edit this text in <code>index.html</code>.</p>
+        <div class="cta">
+          <a class="btn" href="https://pages.github.com/" target="_blank" rel="noopener">Learn GitHub Pages</a>
+          <a class="btn outline" href="#about">Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="card">
+        <h3>Fast Setup</h3>
+        <p>Just upload these files to your repo and enable Pages.</p>
+      </div>
+      <div class="card">
+        <h3>Easy Editing</h3>
+        <p>Change colors, text and logo in minutes.</p>
+      </div>
+      <div class="card">
+        <h3>Mobile Ready</h3>
+        <p>Responsive design that looks great on phones.</p>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <p>Write a short intro about yourself or your project here.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Facebook: <a href="#" target="_blank" rel="noopener">Your Page</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> My GitHub Website • Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
